@@ -1,0 +1,75 @@
+* {
+  font-family: Helvetica;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  height: 1.5rem;
+}
+
+img {
+  display: flex;
+  margin-right: 1rem;
+  margin-left: .5rem;
+}
+
+.Header_Position {
+  display: flex;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+  margin-left: 13rem;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+/* Top Page Content */
+
+.Moto_Image {
+  display: flex;
+  height: 25rem;
+  margin-top: 4rem;
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+.Content_Box {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin-left: 13rem;
+  margin-top: 9rem;
+  height: 13rem;
+}
+
+.Top_Page_Content {
+  display: flex;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.Top_Page_Content2 {
+  display: flex;
+  padding-top: .25rem;
+  padding-left: 3rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Nav Section */
+
+.Nav_Section {
+  display: flex;
+  background-color: firebrick;
+  height: 4rem;
+  flex-direction: column;
+}

@@ -71,5 +71,16 @@ h2 {
   display: flex;
   background-color: firebrick;
   height: 4rem;
-  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: firebrick;
+}
+
+span {
+  background-color: firebrick;
 }

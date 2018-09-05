@@ -148,3 +148,12 @@ span {
   background-color: black;
   color: white;
 }
+
+/* Footer */
+
+footer {
+  padding: 5rem 0;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}

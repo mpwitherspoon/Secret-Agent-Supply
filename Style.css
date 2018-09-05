@@ -91,6 +91,22 @@ span {
   background-color: firebrick;
 }
 
+.mobile_nav {
+  display: none;
+}
+
+@media only screen and (max-width:1024px) {
+  .Nav_Section nav {
+    display: none;
+  }
+
+  .mobile_nav {
+    display: block;
+    align-self: center;
+    padding-left: 48%
+  }
+}
+
 /* Items Section */
 
 .Items_Container {

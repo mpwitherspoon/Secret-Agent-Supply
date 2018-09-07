@@ -64,6 +64,20 @@ h1 {
     height: 15rem;
   }
 
+  .Content_Box {
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .Content_Box h1 {
+    font-size: .77rem;
+  }
+
+  .Content_Box h2 {
+    font-size: 1rem;
+  }
+
 }
 
 /* Nav Section */
@@ -103,7 +117,23 @@ nav {
   }
 
   .Product_Pen, .Product_Watch {
-    width: 40%;
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width:470px) {
+
+  .Info {
+  width: 90%;
+}
+
+  .Product_Pen {
+    width: 90%;
+    margin: auto;
+  }
+
+  .Product_Glasses, .Product_Watch {
+    display: none;
   }
 }
 
@@ -162,6 +192,13 @@ nav {
 }
 
 /* Footer */
+
+@media only screen and (max-width:470px) {
+  footer {
+    align-items: center;
+    text-align: center;
+  }
+}
 
 footer {
   padding: 5rem 0;
